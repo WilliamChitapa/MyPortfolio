@@ -29,9 +29,13 @@ const Hero = () => {
                 </a>
                 <button className="bg-green-500 px-4 py-2 rounded-full flex 
                 items-center gap-2 hover:bg-green-600">
-                    <a href="https://web.whatsapp.com/" target='_blank'
-                        rel="noopener noreferrer">
-                        Talk to me!</a>
+                    <a
+                        href="https://wa.me/244944030498"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Talk to me!
+                    </a>
                 </button>
             </div>
         </section>
