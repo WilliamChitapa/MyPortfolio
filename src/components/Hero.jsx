@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className="bg-black text-white flex flex-col items-center
+        <section className=" text-white flex flex-col items-center
          justify-center h-screen px-6 md:px-12 lg:px-24 text-center">
             <h1 className="text-4xl md:text-5xl font-bold">
                 Hi, I'm William 👋

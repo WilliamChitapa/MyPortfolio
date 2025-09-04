@@ -10,7 +10,8 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md 
+        <nav className="fixed top-0 left-0 w-full z-50 bg-black/80 
+        backdrop-blur-md 
         border-b border-white/20 p-4 text-white">
             <div className="flex justify-between md:justify-around 
             items-center max-w-7xl mx-auto">

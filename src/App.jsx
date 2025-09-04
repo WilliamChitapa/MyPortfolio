@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Footer from './components/footer';
 
+
+
 function App() {
   return (
     <div className="bg-black">

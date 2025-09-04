@@ -3,9 +3,10 @@ import profile from '../img/profile-photo.png';
 
 const About = () => {
     return (
-        <section id="about" className="bg-black text-zinc-300 py-8 sm:py-12
+        <section id="about" className=" text-zinc-300 py-8 sm:py-12
          lg:py-16">
-            <h2 className="text-2xl sm: text-center sm:text-3xl lg:text-4xl font-bold mb-6 
+            <h2 className="text-2xl sm: text-center sm:text-3xl lg:text-4xl 
+            font-bold mb-6 
             sm:mb-8 ml-4 sm:ml-6 lg:ml-10">
                 About me
             </h2>
