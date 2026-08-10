@@ -9,10 +9,8 @@ const Hero = () => {
                 Hi, I'm William 👋
             </h1>
             <p className="text-lg mt-4 max-w-2xl leading-relaxed">
-                <span className="font-bold">Desenvolvedor Front-End  </span>
-                baseado em Interface, Angola AO. Apaixonado por desempenho,
-                experiência do usuário e por fornecer a melhor qualidade de
-                software.
+<span className="font-bold">Desenvolvedor Full Stack </span>
+com foco em soluções web modernas e oportunidades globais. Apaixonado por desempenho, experiência do usuário e por fornecer a melhor qualidade de software.
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-4">
                 <a href="https://www.linkedin.com/in/william-chitapa-6038a5353/"

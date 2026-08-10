@@ -23,37 +23,41 @@ const About = () => {
 
                 <div className="space-y-4 sm:space-y-5">
                     <p className="text-sm sm:text-base lg:text-lg">
-                        Olá, Sou Desenvolvedor Front-End especializado em criar interfaces
-                        web interativas e responsivas utilizando HTML, CSS3,
-                        JavaScript e
-                        ReactJS. Tenho experiência em projetos que envolvem desde o
-                        design de páginas web a otimização de desempenho e usabilidade.
+                        Olá, sou Desenvolvedor Full Stack  especializado em criar
+                        aplicações web completas utilizando HTML, CSS3, JavaScript,
+                        ReactJS, Node.js e PostgreSQL. Tenho experiência no desenvolvimento
+                        de interfaces modernas e back-ends robustos, sempre focando em
+                        desempenho e usabilidade.
                     </p>
+
                     <p className="text-sm sm:text-base lg:text-lg">
-                        Utilizo GitHub para gerenciamento de versões e colaboração em
-                        equipe, mantendo sempre um código limpo e bem
-                        documentado.
-                        Estou constantemente em busca de novas oportunidades para crescer
-                        como programador e contribuir com soluções inovadoras. 🚀
+                        Utilizo Git e GitHub para gerenciamento de versões e colaboração em
+                        equipe, mantendo sempre um código limpo, organizado e bem
+                        documentado. Estou constantemente em busca de novos desafios para
+                        evoluir como desenvolvedor e criar soluções inovadoras. 🚀
                     </p>
+
                     <p className="text-sm sm:text-base lg:text-lg">
-                        Um dos meus principais pontos fortes é otimizar o desempenho das
-                        páginas da web, garantindo tempos de carregamento
-                        rápidos e
-                        interações tranquilas para os usuários. Também tenho grande
-                        experiência em acessibilidade, garantindo que os aplicativos que
-                        construo sejam utilizáveis por todos, inclusive por pessoas
-                        com deficiência.
+                        Um dos meus principais pontos fortes é desenvolver aplicações
+                        rápidas, escaláveis e de alta qualidade, unindo front-end e
+                        back-end para proporcionar a melhor experiência possível aos
+                        usuários, seguindo sempre boas práticas de desenvolvimento.
                     </p>
+
                     <button className="bg-green-500 px-4 py-2 rounded-full
-                     hover:bg-green-600 text-sm sm:text-base transition-colors
-                      duration-300">
-                        <a href="https://www.instagram.com/" target='_blank'
-                            rel="noopener noreferrer">
+                        hover:bg-green-600 text-sm sm:text-base transition-colors
+                        duration-300">
+                        <a
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Talk to me!
                         </a>
                     </button>
                 </div>
+
+
             </div>
         </section>
     );

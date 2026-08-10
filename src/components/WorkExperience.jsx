@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaGit } from 'react-icons/fa';
+import {  FaJs, FaReact, FaGithub, FaGit } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 const WorkExperience = () => {
     return (
@@ -40,37 +42,44 @@ const WorkExperience = () => {
                 <div>
                     <div className="absolute -left-3 w-5 h-5 bg-green-500 rounded-full"></div>
                     <h3 className="text-xl font-semibold">August 2024 - February 2025</h3>
-                    <h4 className="text-lg text-green-400">Front-end Developer | Skills</h4>
+                    <h4 className="text-lg text-green-400">Desenvolvedor Full Stack | Skills</h4>
                     <ul className="list-disc pl-5 mt-2">
-                        <li>Em 2025, já com uma boa Experiência em
-                            TailwindCSS e experiência em Front-end com HTML,
-                            CSS, JavaScript e React, <br />
-                            consegui uma oportunidade incrível na <span className='font-bold'>DataBridge</span>  uma comunidade de estagio para Devs
+                        <li>Em 2025, já com uma boa Experiência em  <span className='font-bold'>Reatjs</span>   e experiência em Full Stack com HTML,                      
+                            CSS, Vuejs, JavaScript e React, NodeJs e express, <br />
+                            consegui uma oportunidade incrível na <span className='font-bold'>TF Assessor</span>  uma empresa de Desenvolvimento de sistemas
                         </li>
-                        <li>Desenvolvi um App <span className='font-bold'>
-                            HairGo,</span> uma App
-                            que conecta
-                            Barbeiros e clientes.</li>
-                        <li>Meu papel é focado na interface do usuário, e
-                            eu trabalhei na reformulação de
-                            <span className='font-bold'> várias seções </span>
-                            do App, <br /> como o perfil de clientes e a
-                            área de opçoes de escolha de Barbeiro 🚀.</li>
+                     
+<li>
+  Desenvolvi a <span className='font-bold'>TF IA</span>, uma inteligência
+  artificial especializada em programação, marketing e diversas outras áreas.
+</li>
+
+<li>
+  Meu papel foi desenvolver a aplicação e criar
+  <span className='font-bold'> prompts especializados </span> <br />
+  para auxiliar colaboradores e usuários em suas tarefas diárias,
+  aumentando a produtividade e a eficiência. 🚀
+</li>
                     </ul>
-                    <div className="flex space-x-4 mt-4">
-                        <span className="bg-gray-800 p-2 rounded-full">
-                            <FaHtml5 className="w-6 h-6 text-white" />
-                        </span>
-                        <span className="bg-gray-800 p-2 rounded-full">
-                            <FaCss3Alt className="w-6 h-6 text-blue-500" />
-                        </span>
-                        <span className="bg-gray-800 p-2 rounded-full">
-                            <FaJs className="w-6 h-6 text-yellow-200" />
-                        </span>
-                        <span className="bg-gray-800 p-2 rounded-full">
-                            <FaReact className="w-6 h-6 text-cyan-500" />
-                        </span>
-                    </div>
+              <div className="flex space-x-4 mt-4">
+
+    <span className="bg-gray-800 p-2 rounded-full">
+        <FaNodeJs className="w-6 h-6 text-green-500" />
+    </span>
+
+    <span className="bg-gray-800 p-2 rounded-full">
+        <SiExpress className="w-6 h-6 text-white" />
+    </span>
+
+    <span className="bg-gray-800 p-2 rounded-full">
+        <FaJs className="w-6 h-6 text-yellow-200" />
+    </span>
+
+    <span className="bg-gray-800 p-2 rounded-full">
+        <FaReact className="w-6 h-6 text-cyan-500" />
+    </span>
+
+</div>
                 </div>
             </div>
         </section>
