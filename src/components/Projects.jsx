@@ -15,7 +15,7 @@ const projects = [
   {
     image: hairgo,
     title: "HairGo",
-    link: "https://hair-go.vercel.app/",
+    link: "#",
   },
   {
     image: tfia,
@@ -25,7 +25,7 @@ const projects = [
   {
     image: tfwork,
     title: "TF Work",
-    link: "https://tfsoftware.tfhub.com.br/",
+    link: "#",
   },
   {
     image: angojobs,
@@ -105,7 +105,7 @@ const Projects = () => {
 
               <a
                 href={project.link}
-                target="_blank"
+                
                 rel="noopener noreferrer"
                 className="
                 underline text-xl
